@@ -2,13 +2,14 @@
     "manifest_version": 2,  
     "name": "Desmos",  
     "description": "Extension for desmos.com",  
-    "version": "1.0",  
-    "browser_action": {  
-     "default_icon": "assets/favicon.ico",  
+    "version": "1.0",
+    "icons": {
+        "16": "assets/favicon.png",
+        "64": "assets/favicon.png",
+        "128": "assets/favicon.png"
+      },  
+    "browser_action": {
+     "popup": "popup.html",
      "default_popup": "index.html"  
-    },  
-    "permissions": [  
-     "activeTab",  
-     "storage"  
-    ]  
+    }  
    }
