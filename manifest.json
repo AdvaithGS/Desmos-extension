@@ -13,9 +13,10 @@
      "default_popup": "popup.html"  
     },
     "commands": {
-      "_execute_action": {
+      "_execute_page_action": {
         "suggested_key": {
-          "default": "Ctrl+Shift+D"
+          "windows": "Ctrl+Shift+D",
+          "mac":"Command+Shift+D"
         }
       }
 }
